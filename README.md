@@ -2,6 +2,6 @@
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
-## Stage 1. Submission
+## Stage 1
 
 
