@@ -152,36 +152,49 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
   addMarkersToMap();
 }
 
-/**
- * Create restaurant HTML.
- */
 createRestaurantHTML = (restaurant) => {
-  const li = document.createElement('li');
+    const li = document.createElement('li');
+    const smallImage1x = DBHelper.imageUrlForRestaurant(restaurant, 'small', '1x');
+    const smallImage2x = DBHelper.imageUrlForRestaurant(restaurant, 'large', '1x');
+    const largeImage1x = DBHelper.imageUrlForRestaurant(restaurant, 'large', '1x');
+    const largeImage2x = DBHelper.imageUrlForRestaurant(restaurant, 'large', '2x');
 
-  const image = document.createElement('img');
-  image.className = 'restaurant-img';
-  image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  li.append(image);
+    const picture = document.createElement('picture');
+    const source1 = document.createElement('source');
+    const source2 = document.createElement('source');
+    const img = document.createElement('img');
+    source1.setAttribute('media', '(min-width: 600px)');
+    source1.setAttribute('srcset', `${largeImage2x} 2x, ${largeImage1x}`);
+    source2.setAttribute('media', '(max-width: 599px)');
+    source2.setAttribute('srcset', `${smallImage2x} 2x`);
+    img.setAttribute('src', `${smallImage1x}`);
+    img.setAttribute('alt', 'sample alt text');
+    picture.className = 'restaurant-img';
+    picture.appendChild(source1);
+    picture.appendChild(source2);
+    picture.appendChild(img);
+    li.append(picture);
 
-  const name = document.createElement('h1');
-  name.innerHTML = restaurant.name;
-  li.append(name);
+    const name = document.createElement('h1');
+    name.innerHTML = restaurant.name;
+    li.append(name);
 
-  const neighborhood = document.createElement('p');
-  neighborhood.innerHTML = restaurant.neighborhood;
-  li.append(neighborhood);
+    const neighborhood = document.createElement('p');
+    neighborhood.innerHTML = restaurant.neighborhood;
+    li.append(neighborhood);
 
-  const address = document.createElement('p');
-  address.innerHTML = restaurant.address;
-  li.append(address);
+    const address = document.createElement('p');
+    address.innerHTML = restaurant.address;
+    li.append(address);
 
-  const more = document.createElement('a');
-  more.innerHTML = 'View Details';
-  more.href = DBHelper.urlForRestaurant(restaurant);
-  li.append(more)
+    const more = document.createElement('a');
+    more.innerHTML = 'View Details';
+    more.href = DBHelper.urlForRestaurant(restaurant);
+    li.append(more)
 
-  return li
+    return li
 }
+
 
 /**
  * Add markers for current restaurants to the map.

@@ -216,10 +216,14 @@ nav h1 a {
 }
 
 #restaurants-list .restaurant-img {
-  background-color: #ccc;
   display: block;
   margin: 0;
   width: 100%;
+}
+
+#restaurants-list .restaurant-img img {
+  width: 100%;
+  height: 100%;
 }
 
 #restaurants-list li h1 {
@@ -256,12 +260,20 @@ nav h1 a {
     width: calc(100% - 54px);
   }
 
+  #restaurants-list .restaurant-img {
+    max-width: 600px;
+  }
+
 }
 
 @media only screen and (min-width: 600px) {
 
   #restaurants-list li {
     width: calc((100% / 2) - 54px);
+  }
+
+  #restaurants-list .restaurant-img {
+    max-width: 800px;
   }
 
 }

@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db3f05a-6c38-4c79-a511-2550f0ad98c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/responsive-images/1-large-1x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/responsive-images/5-large-1x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/responsive-images/6-large-1x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/responsive-images/7-large-1x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/responsive-images/8-large-1x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/responsive-images/9-large-1x.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/restaurants.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/restaurants.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dbhelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dbhelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +29,9 @@
           <entry key="CODEOWNERS" value="1" />
           <entry key="css" value="3" />
           <entry key="html" value="9" />
-          <entry key="jpg" value="4" />
-          <entry key="js" value="11" />
-          <entry key="json" value="1" />
+          <entry key="jpg" value="13" />
+          <entry key="js" value="14" />
+          <entry key="json" value="2" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
@@ -42,56 +39,40 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="9" />
-          <entry key="Image" value="4" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="11" />
+          <entry key="Image" value="13" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4951" />
+          <entry key="css" value="5240" />
           <entry key="html" value="99" />
-          <entry key="js" value="1" />
+          <entry key="js" value="1544" />
+          <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4951" />
+          <entry key="CSS" value="5240" />
           <entry key="HTML" value="99" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="1544" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+            <state relative-caret-position="231">
+              <caret line="156" column="46" selection-start-line="156" selection-start-column="46" selection-end-line="156" selection-end-column="46" />
               <folding>
                 <element signature="e#9#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/dbhelper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -101,6 +82,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>#footer</find>
+      <find>photograph</find>
+      <find>restaurant</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,9 +95,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/restaurant_info.js" />
         <option value="$PROJECT_DIR$/restaurant.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data/restaurants.json" />
+        <option value="$PROJECT_DIR$/js/dbhelper.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -124,7 +109,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1847" />
     <option name="y" value="-638" />
     <option name="width" value="1578" />
@@ -142,22 +127,6 @@
             <path>
               <item name="RestaurantReviewsApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestaurantReviewsApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestaurantReviewsApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestaurantReviewsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestaurantReviewsApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestaurantReviewsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RestaurantReviewsApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RestaurantReviewsApp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="responsive-images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RestaurantReviewsApp" type="b2602c69:ProjectViewProjectNode" />
@@ -206,15 +175,15 @@
       <updated>1536694000914</updated>
       <workItem from="1536765925917" duration="58000" />
       <workItem from="1536765987361" duration="11260000" />
-      <workItem from="1536886246616" duration="19954000" />
+      <workItem from="1536886246616" duration="26207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31272000" />
+    <option name="totallyTimeSpent" value="37525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1847" y="-638" width="1578" height="949" extended-state="0" />
+    <frame x="1847" y="-638" width="1578" height="949" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983944" />
@@ -252,9 +221,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/restaurants.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/restaurant_info.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1411">
@@ -305,24 +271,52 @@
     <entry file="file://$PROJECT_DIR$/img/responsive-images/2-small-1x.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/restaurants.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="356" column="21" lean-forward="true" selection-start-line="356" selection-start-column="21" selection-end-line="356" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/responsive-images/1-small-1x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/responsive-images/10-large-1x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/responsive-images/10-large-2x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/responsive-images/10-small-1x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/responsive-images/5-large-2x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/responsive-images/5-large-1x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/responsive-images/1-large-1x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="352">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/dbhelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
+        <state relative-caret-position="397">
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+        <state relative-caret-position="231">
+          <caret line="156" column="46" selection-start-line="156" selection-start-column="46" selection-end-line="156" selection-end-column="46" />
           <folding>
             <element signature="e#9#15#0" expanded="true" />
           </folding>
