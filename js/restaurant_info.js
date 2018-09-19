@@ -86,9 +86,26 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   const address = document.getElementById('restaurant-address');
   address.innerHTML = restaurant.address;
 
-  const image = document.getElementById('restaurant-img');
-  image.className = 'restaurant-img'
-  image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  const smallImage1x = DBHelper.imageUrlForRestaurant(restaurant, 'small', '1x');
+  const smallImage2x = DBHelper.imageUrlForRestaurant(restaurant, 'large', '1x');
+  const largeImage1x = DBHelper.imageUrlForRestaurant(restaurant, 'large', '1x');
+  const largeImage2x = DBHelper.imageUrlForRestaurant(restaurant, 'large', '2x');
+
+  // const picture = document.createElement('picture');
+  const picture = document.getElementById('restaurant-img');
+  const source1 = document.createElement('source');
+  const source2 = document.createElement('source');
+  const img = document.createElement('img');
+  source1.setAttribute('media', '(min-width: 600px)');
+  source1.setAttribute('srcset', `${largeImage2x} 2x, ${largeImage1x}`);
+  source2.setAttribute('media', '(max-width: 599px)');
+  source2.setAttribute('srcset', `${smallImage2x} 2x`);
+  img.setAttribute('src', `${smallImage1x}`);
+  img.setAttribute('alt', 'sample alt text');
+  picture.className = 'restaurant-img';
+  picture.appendChild(source1);
+  picture.appendChild(source2);
+  picture.appendChild(img);
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;

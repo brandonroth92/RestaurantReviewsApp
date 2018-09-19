@@ -9,8 +9,8 @@ body, td, th, p {
 }
 
 body {
-  margin: 0;
   background-color: #fdfdfd;
+  margin: 0;
 }
 
 ul, li {
@@ -182,6 +182,10 @@ nav h1 a {
   width: 155px;
   padding: 0 0 0 10px;
   margin: 5px 0 0 calc((100vw - 310px) / 2);
+}
+
+.filter-options select:focus {
+  outline: 3px solid #003366;
 }
 
 .filter-options select:last-child {
@@ -376,11 +380,11 @@ nav h1 a {
   padding: 8px 20px 0;
   max-width: 100%;
   height: auto;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
 #reviews-list li:first-child {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #reviews-list li p {
@@ -402,7 +406,7 @@ nav h1 a {
   }
 
   #reviews-list li:last-child {
-    margin: 0 0 6px;
+    margin: 0;
   }
 
 }

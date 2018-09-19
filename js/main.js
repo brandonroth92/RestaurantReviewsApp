@@ -36,6 +36,7 @@ fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
     const option = document.createElement('option');
     option.innerHTML = neighborhood;
     option.value = neighborhood;
+    option.setAttribute('aria-label', neighborhood);
     select.append(option);
   });
 }
@@ -189,6 +190,7 @@ createRestaurantHTML = (restaurant) => {
 
     const more = document.createElement('a');
     more.innerHTML = 'View Details';
+    more.setAttribute('aria-label', `View details for ${restaurant.name}`);
     more.href = DBHelper.urlForRestaurant(restaurant);
     li.append(more)
 
